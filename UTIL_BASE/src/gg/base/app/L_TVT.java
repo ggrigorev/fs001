@@ -12,18 +12,20 @@ public interface L_TVT {
 
 
 	String TVT  = "tvt";
-	String KRIA = "kria";
+//	String KRIA = "kria";
 
 	String PART_TVT = "xczu1cg-sbva484-2-i";
-	String PART_KRIA = "xck26-sfvc784-2LV-c";
+//	String PART_KRIA = "xck26-sfvc784-2LV-c";
 
 	boolean forKria = false;//true;//
 
 	SMap environment = new SMap(
 		GIT_HOME			, "C:/AMD.proto",
 		GIT_NAME			, "TVT_FPGA",
-		FPGA_PROJECT		, forKria ? KRIA : TVT,
-		FPGA_PART			, forKria ? PART_KRIA : PART_TVT,
+		FPGA_PROJECT		, TVT,
+		FPGA_PART			, PART_TVT,
+//FPGA_PROJECT		, forKria ? KRIA : TVT,
+//FPGA_PART			, forKria ? PART_KRIA : PART_TVT,
 		FPGA_XDBG			, "",
 		QUESTA_BIN			, "C:/questasim64_2021.1/win64",
 		VIVADO_QUESTA_LIB	, "C:/AMD.compile_simlib/questa"
