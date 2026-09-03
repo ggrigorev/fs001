@@ -26,7 +26,7 @@ public interface L_TVT {
 		FPGA_PART			, PART_TVT,
 //FPGA_PROJECT		, forKria ? KRIA : TVT,
 //FPGA_PART			, forKria ? PART_KRIA : PART_TVT,
-		FPGA_XDBG			, "",
+//		FPGA_XDBG			, "",
 		QUESTA_BIN			, "C:/questasim64_2021.1/win64",
 		VIVADO_QUESTA_LIB	, "C:/AMD.compile_simlib/questa"
 	);
