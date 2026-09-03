@@ -20,7 +20,7 @@ public interface L_TVT {
 	boolean forKria = false;//true;//
 
 	SMap environment = new SMap(
-		GIT_HOME			, "C:/AMD.proto",
+		GIT_HOME			, "C:/AMD.repo",
 		GIT_NAME			, "TVT_FPGA",
 		FPGA_PROJECT		, TVT,
 		FPGA_PART			, PART_TVT,
