@@ -6,7 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/JavaLib/jdom-2.0.6/jdom-2.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/JavaLib/jdom-2.0.6.1/jdom-2.0.6.1.jar"/>
 	<classpathentry kind="lib" path="C:/JavaLib/commons-io-2.21.0/commons-io-2.21.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
